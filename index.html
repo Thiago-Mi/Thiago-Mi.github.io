@@ -3,32 +3,99 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Thiago Miranda Aboboreira: desenvolvimento full stack, dados e IA.">
   <title>Thiago Miranda Aboboreira | Portfólio</title>
 </head>
 <body>
   <header>
+    <p>full-stack :: data :: ai</p>
     <h1>Thiago Miranda Aboboreira</h1>
-    <p>Graduando em Engenharia da Computação</p>
+    <p>
+      Construo sistemas de ponta a ponta: modelagem de dados, API, interface, infraestrutura e modelos de IA.
+      Fecho Engenharia de Computação no CEFET-MG.
+    </p>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#sistemas">Sistemas</a>
+      <a href="#pesquisa">Pesquisa</a>
+      <a href="#curso">Curso de Git</a>
+      <a href="#contato">Contato</a>
+    </nav>
   </header>
 
   <main>
     <section id="sobre">
       <h2>Sobre mim</h2>
       <p>
-        Sou graduando em Engenharia da Computação e participante do curso de Git e GitHub do CEFET-MG.
-        Este portfólio reúne o que aprendi sobre versionamento, trabalho em equipe e publicação na web.
+        Trabalho principalmente com software de gestão para organizações que operam sob regulação: ambientes em que
+        o número precisa ser auditável, o acesso precisa ser segmentado e o documento gerado precisa ter validade formal.
+      </p>
+      <p>
+        Estudo Engenharia de Computação no CEFET-MG, campus Divinópolis, com pesquisa em visão computacional aplicada
+        a sinais clínicos.
       </p>
     </section>
 
-    <section id="contato">
-      <h2>Contato</h2>
-      <ul>
-        <li>GitHub: <a href="https://github.com/Thiago-Mi">github.com/Thiago-Mi</a></li>
-      </ul>
+    <section id="sistemas">
+      <h2>Sistemas</h2>
+      <p>
+        Os sistemas abaixo foram desenvolvidos sob contrato e o código é privado. Aqui estão o propósito e a
+        arquitetura, sem identificação de clientes ou dados de operação.
+      </p>
+
+      <article>
+        <h3>Plataforma de Transparência Pública</h3>
+        <p>SaaS multitenant para órgãos públicos. Consolida avaliação externa e autoavaliação interna, gera o diagnóstico
+          e o plano anual de ação, distribui responsabilidades por setor e prazo e emite relatórios oficiais em PDF.</p>
+        <p>Stack: Django, DRF, PostgreSQL, Celery, Angular, React, Tailwind, Docker.</p>
+      </article>
+
+      <article>
+        <h3>Módulo de Escuta Social</h3>
+        <p>Ouvidoria integrada à plataforma de transparência. Importa manifestações de cidadãos, propõe classificação
+          automática por tema com um classificador determinístico e monitora portais públicos comparando o publicado com
+          o que a norma exige.</p>
+        <p>Stack: Python, Playwright, PostgreSQL, processamento de linguagem determinístico.</p>
+      </article>
+
+      <article>
+        <h3>ERP corporativo</h3>
+        <p>Contratos, financeiro, fiscal e comercial. Controla o ciclo de vida do contrato, apura comissionamento, emite e
+          concilia documentos fiscais e acompanha o funil comercial, com uma fonte única de verdade.</p>
+        <p>Stack: SQL Server, T-SQL, Django, FastAPI, React, Docker, OAuth2/OIDC.</p>
+      </article>
+
+      <article>
+        <h3>Plataforma de IA</h3>
+        <p>Busca semântica e resposta assistida sobre acervo próprio. Indexa documentos em vetores, responde citando a
+          base que sustentou a resposta e reconhece quando a base não cobre a pergunta em vez de inventar.</p>
+        <p>Stack: FastAPI, pgvector, Ollama, LiteLLM, DSPy, Oracle Cloud, GitHub Actions.</p>
+      </article>
+
+      <article>
+        <h3>Dashboards de gestão</h3>
+        <p>Do protótipo analítico ao sistema de produção. Consolida dados de bancos corporativos e ferramentas de gestão
+          em visões por papel, com recorte automático por entidade e perfil de quem está olhando.</p>
+        <p>Stack: Angular, Django, SQL Server, ng-zorro, REST APIs.</p>
+      </article>
     </section>
 
-    <section id="repositorios">
-      <h2>Repositórios do curso</h2>
+    <section id="pesquisa">
+      <h2>Pesquisa</h2>
+      <h3>Geração de ECG sintético para diagnósticos raros</h3>
+      <p>Trabalho de conclusão de curso em Engenharia de Computação. Datasets de eletrocardiograma são severamente
+        desbalanceados: as classes clinicamente mais críticas são as que têm menos exemplos. A proposta é gerar exemplos
+        sintéticos das classes minoritárias para reequilibrar o treino e medir o ganho real sobre os classificadores.</p>
+      <p>Stack: TensorFlow, Keras, Python, Django, React, LaTeX.</p>
+    </section>
+
+    <section id="formacao">
+      <h2>Formação</h2>
+      <p>Engenharia de Computação, CEFET-MG, campus Divinópolis (em conclusão).</p>
+    </section>
+
+    <section id="curso">
+      <h2>Repositórios do curso de Git e GitHub</h2>
       <ul>
         <li>
           <a href="https://github.com/Thiago-Mi/portfolio-git">portfolio-git</a>:
@@ -38,6 +105,15 @@
           <a href="https://github.com/Thiago-Mi/projeto-equipe">projeto-equipe</a>:
           trabalho em equipe com issues, pull requests e code review.
         </li>
+      </ul>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Aberto a oportunidades full stack e de dados/IA, e a projetos sob demanda.</p>
+      <ul>
+        <li>E-mail: <a href="mailto:engcmpthiagom@gmail.com">engcmpthiagom@gmail.com</a></li>
+        <li>GitHub: <a href="https://github.com/Thiago-Mi">github.com/Thiago-Mi</a></li>
       </ul>
     </section>
   </main>
